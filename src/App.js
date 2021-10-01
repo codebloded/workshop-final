@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import ScrollToTop from './components/ScrolllToTop';
+
 import Services from './components/pages/Services';
 
 import SignIn from './components/SignIn/SignIn';
@@ -16,7 +16,7 @@ const App = () => {
     <>
       <Router>
 
-        <ScrollToTop />
+       
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />
